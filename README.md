@@ -21,18 +21,18 @@ secure-cloud-project/
 │   ├── index.html
 │   └── style.css
 ├── screenshots/           # Proof-of-work images
-│   ├── snapshot1.png      # S3 bucket created
-│   ├── snapshot2.png      # Files uploaded
-│   ├── snapshot3.png      # Static website enabled
+│   ├── snapshot1.PNG      # S3 bucket created
+│   ├── snapshot2.PNG      # Files uploaded
+│   ├── snapshot3.PNG      # Static website enabled
 │   ├── snapshot4.png      # Bucket policy applied
-│   ├── snapshot5.png      # Website opened in browser
-│   ├── snapshot6.png      # EC2 instance launched
-│   ├── snapshot7.png      # SSH into VM
-│   ├── snapshot8.png      # UFW firewall status
-│   ├── snapshot9.png      # SSH hardening config
-│   ├── snapshot10.png     # Automatic updates
-│   ├── snapshot11.png     # Nmap scan result
-│   └── snapshot12.png     # Nikto S3 scan result
+│   ├── snapshot5.PNG      # Website opened in browser
+│   ├── snapshot6.PNG      # EC2 instance launched
+│   ├── snapshot7.PNG      # SSH into VM
+│   ├── snapshot8.PNG      # UFW firewall status
+│   ├── snapshot9.PNG     # SSH hardening config
+│   ├── snapshot10.PNG     # Automatic updates
+│   ├── snapshot11.PNG     # Nmap scan result
+│   └── snapshot12.PNG     # Nikto S3 scan result
 ```
 
 ---
