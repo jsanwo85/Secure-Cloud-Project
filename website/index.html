@@ -1,14 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Cloud Project</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Secure Cloud Project Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0 auto; max-width: 900px; padding: 20px; }
+        h1, h2 { color: #333; }
+        .gallery img { width: 100%; max-width: 600px; height: auto; margin-bottom: 20px; border: 1px solid #ccc; }
+        .caption { font-style: italic; margin-bottom: 40px; color: #555; }
+        hr { margin: 40px 0; }
+        a { color: #0645AD; text-decoration: none; }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to My Secure Cloud Project</h1>
-    <p>This website is hosted on AWS S3 and secured using Linux hardening and vulnerability scanning.</p>
-  </div>
+
+    <h1>Secure Cloud Web Hosting & Vulnerability Assessment</h1>
+    <p>This project demonstrates an end-to-end deployment and security validation workflow, combining cloud services, website hosting, and basic Linux hardening techniques on AWS.</p>
+
+    <hr>
+
+    <h2>📁 Repository Structure</h2>
+    <pre>
+secure-cloud-project/
+├── README.md                # This file
+├── website/                 # Static site files
+│   ├── index.html
+│   └── style.css
+└── screenshots/             # Proof-of-work images
+    ├── snapshot1.png        # S3 bucket created
+    ├── snapshot2.png        # Files uploaded
+    ├── snapshot3.png        # Static website enabled
+    ├── snapshot4.png        # Bucket policy applied
+    ├── snapshot5.png        # Website opened in browser
+    ├── snapshot6.png        # EC2 instance launched
+    ├── snapshot7.png        # SSH into VM
+    ├── snapshot8.png        # UFW firewall status
+    ├── snapshot9.png        # SSH hardening config
+    ├── snapshot10.png       # Automatic updates
+    ├── snapshot11.png       # Nmap scan result
+    └── snapshot12.png       # Nikto S3 scan result
+    </pre>
+
+    <hr>
+
+    <h2>🖼️ Snapshot Previews</h2>
+
+    <div class="gallery">
+        <h3>S3 Bucket Created</h3>
+        <img src="screenshots/snapshot1.png" alt="S3 Bucket Created">
+        <div class="caption">Successfully created bucket on AWS S3</div>
+
+        <h3>Files Uploaded</h3>
+        <img src="screenshots/snapshot2.png" alt="Files Uploaded">
+        <div class="caption">Files uploaded to the bucket</div>
+
+        <h3>Static Website Enabled</h3>
+        <img src="screenshots/snapshot3.png" alt="Static Website Enabled">
+        <div class="caption">Enabled static website hosting</div>
+
+        <h3>Bucket Policy Applied</h3>
+        <img src="screenshots/snapshot4.png" alt="Bucket Policy Applied">
+        <div class="caption">Permissions set for public access</div>
+
+        <h3>Website Opened in Browser</h3>
+        <img src="screenshots/snapshot5.png" alt="Website Opened in Browser">
+        <div class="caption">Site live from S3 bucket</div>
+
+        <h3>EC2 Instance Launched</h3>
+        <img src="screenshots/snapshot6.png" alt="EC2 Instance Launched">
+        <div class="caption">Virtual machine created on AWS EC2</div>
+
+        <h3>SSH into VM</h3>
+        <img src="screenshots/snapshot7.png" alt="SSH into VM">
+        <div class="caption">Remote access into EC2 via SSH</div>
+
+        <h3>UFW Firewall Status</h3>
+        <img src="screenshots/snapshot8.png" alt="UFW Firewall Status">
+        <div class="caption">Basic firewall configuration using UFW</div>
+
+        <h3>SSH Hardening Config</h3>
+        <img src="screenshots/snapshot9.png" alt="SSH Hardening Config">
+        <div class="caption">Restricted SSH access and protocols</div>
+
+        <h3>Automatic Updates</h3>
+        <img src="screenshots/snapshot10.png" alt="Automatic Updates">
+        <div class="caption">Enabled unattended-upgrades for security</div>
+
+        <h3>Nmap Scan Result</h3>
+        <img src="screenshots/snapshot11.png" alt="Nmap Scan Result">
+        <div class="caption">Basic port scan validation with Nmap</div>
+
+        <h3>Nikto S3 Scan Result</h3>
+        <img src="screenshots/snapshot12.png" alt="Nikto S3 Scan Result">
+        <div class="caption">Web server vulnerability scan using Nikto</div>
+    </div>
+
+    <hr>
+
+    <h2>📬 Contact</h2>
+    <p><strong>Name:</strong> Sanwo Joseph<br>
+    <strong>Email:</strong> <a href="mailto:Joseph.sanwo1@gmail.com">Joseph.sanwo1@gmail.com</a><br>
+    <strong>GitHub:</strong> <a href="https://github.com/jsanwo85" target="_blank">github.com/jsanwo85</a></p>
+
 </body>
 </html>
