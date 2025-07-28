@@ -24,7 +24,7 @@ secure-cloud-project/
 │   ├── snapshot1.PNG      # S3 bucket created
 │   ├── snapshot2.PNG      # Files uploaded
 │   ├── snapshot3.PNG      # Static website enabled
-│   ├── snapshot4.png      # Bucket policy applied
+│   ├── snapshot4.PNG      # Bucket policy applied
 │   ├── snapshot5.PNG      # Website opened in browser
 │   ├── snapshot6.PNG      # EC2 instance launched
 │   ├── snapshot7.PNG      # SSH into VM
